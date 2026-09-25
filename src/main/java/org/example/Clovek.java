@@ -29,9 +29,16 @@ public class Clovek {
         this.vek=vek;
     }
 
-    public String celeJmeno(){
+    public String celeJmeno() {
         return "";
-
     }
+
+    public boolean jstedospely(){
+        if(vek>=18)
+            return true;
+        else
+            return false;
+    }
+
 }
 
